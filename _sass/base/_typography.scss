@@ -7,12 +7,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  color: $header-alt-color;
   text-rendering: optimizeLegibility;
 }
 
 h1 {
   font-size: 2rem;
+  color: $header-color;
 }
 
 h2 {
@@ -28,6 +29,16 @@ h3 {
 h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
+}
+
+h_landing {
+  margin-bottom: .5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  color: $header-color;
+  text-rendering: optimizeLegibility;
 }
 
 p {
@@ -56,8 +67,8 @@ hr {
   position: relative;
   margin: 1.5rem 0;
   border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border-top: 2px solid #eee;
+  border-bottom: 3px solid #fff;
 }
 
 abbr {
@@ -115,4 +126,27 @@ a[href^="#fnref:"] {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+}
+
+h2 > a {
+  margin-bottom: .5rem;
+  font-weight: bold;
+  line-height: 1.25;
+  color: $header-alt-color;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+
+  &:focus {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: $nav-link-color;
+  }
+  &:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: $nav-link-color;
+  }
+  
 }
