@@ -11,16 +11,15 @@ title: Research
 <div class="project">
 <!-- 	<div class="project-thumb"><img src="/photos/thumb.jpg" alt="stroke subject demonstrating hand closing and opening while wearing device"></div> -->
 	<div class="project-content">
-		<h3>Thumb Stabilization and Assistance in a Robotic Hand Orthosis for Post-Stroke Hemiparesis</h3>
-		<strong>Ava Chen</strong><span style="color:#767676">, Lauren Winterbottom, Sangwoo Park, Jingxi Xu, Dawn Nilsen, Joel Stein, and Matei Ciocarlie</span><br>
-		In IEEE Robotics and Automation Letters (RAL); presented in IEEE RAS/EMBS Intl. Conference on Biomedical Robotics and Biomechatronics (BioRob), 2022.
+		<h3>NeFL: Nested Federated Learning for Heterogeneous Clients</h3>
+		<span style="color:#767676">Honggu Kang, </span><strong>Seohyeon Cha</strong><span style="color:#767676">Jinwoo Shin, Jongmyeong Lee, and Joonhyuk Kang</span><cbr>
+		Under-review in NeurIPS 2023. 
 		<div>
-		<a href="https://ieeexplore.ieee.org/document/9803858">paper</a> / <a href="https://arxiv.org/abs/2110.02258">arXiv</a> / 
-		<a id="show_chen2022_thumb" href="#show_chen2022_thumb" class="hide">abstract (+)</a>
-		<a id="hide_chen2022_thumb" href="#hide_chen2022_thumb" class="show">abstract (-)</a>
+		<a href="https://openreview.net/pdf?id=hldhaq2P2z">paper</a> / 
+		<a id="show_cha2023_nefl" href="#show_cha2023_nefl" class="hide">abstract (+)</a>
+		<a id="hide_cha2023_nefl" href="#hide_cha2023_nefl" class="show">abstract (-)</a>
 		<p class="details">
-			We propose a dual-cable method of stabilizing the thumb in the context of a hand orthosis designed for individuals with upper extremity hemiparesis after stroke. This cable network adds opposition/reposition capabilities to the thumb, and increases the likelihood of forming a hand pose that can successfully manipulate objects. In addition to a passive-thumb version (where both cables are of fixed length), our approach also allows for a single-actuator active-thumb version (where the extension cable is actuated while the abductor remains passive), which allows a range of motion intended to facilitate creating and maintaining grasps. We performed experiments with five chronic stroke survivors consisting of unimanual resistive-pull tasks and bimanual twisting tasks with simulated real-world objects; these explored the effects of thumb assistance on grasp stability and functional range of motion. Our results show that both active- and passive-thumb versions achieved similar performance in terms of improving grasp force generation over a no-device baseline, but active thumb stabilization enabled users to maintain grasps for longer durations.
-		</p>
+			Federated learning (FL) is a promising approach in distributed learning keeping privacy. However, during the training pipeline of FL, slow or incapable clients (i.e., stragglers) slow down the total training time and degrade performance. System heterogeneity, including heterogeneous computing and network bandwidth, has been addressed to mitigate the impact of stragglers. Previous studies split models to tackle the issue, but with less degree-of-freedom in terms of model architecture. We propose nested federated learning (NeFL), a generalized framework that efficiently divides a model into submodels using both depthwise and widthwise scaling. NeFL is implemented by interpreting models as solving ordinary differential equations (ODEs) with adaptive step sizes. To address the inconsistency that arises when training multiple submodels with different architecture, we decouple a few parameters. NeFL enables resource-constrained clients to effectively join the FL pipeline and the model to be trained with a larger amount of data. Through a series of experiments, we demonstrate that NeFL leads to significant gains, especially for the worst-case submodel (e.g., 8.01% improvement on CIFAR-10). Somewhat interestingly, by investigating how to utilize pre-trained models within the NeFL, we found that Vision Transformers (ViTs) hold promise in addressing both system and statistical heterogeneity.		</p>
 		</div>
 	</div>
 </div>
