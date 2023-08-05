@@ -17,7 +17,11 @@ $body-top-border-color: #0A3b76;
 $body-top-border-width: 5px;
 
 // Links
-$link-color: #5a81b0;
+$link-color: #5078B0;
+
+// Headers
+$header-color: #263663;
+$header-alt-color: #5078B0;
 
 // Navigation
 $nav-bottom-border-color: #c0c0c0;
@@ -25,16 +29,11 @@ $nav-bottom-border-width: 1px;
 
 $nav-link-color: #263663;
 $nav-link-padding-y: 0.7rem;
-$nav-link-padding-x: 1.5rem;
+$nav-link-padding-x: 0.5rem;
 $nav-link-underline-color: #2098d1;
+
+$nav-name-padding-y: 0.2rem;
+$nav-name-padding-x: 1.5rem;
 
 $nav-icon-color: #ffffff;
 $nav-icon-background-color: #0A3b76;
-
-// Blog post headings and page titles
-$post-title-color: #0A3b76;
-$post-date-color: #9a9a9a;
-
-// Message box
-$message-color: #717171;
-$message-background-color: #f9f9f9;
