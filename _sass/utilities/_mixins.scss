@@ -8,11 +8,6 @@
   #{$property}: #{$value};
 }
 
-@mixin keyframes($name) {
-  @-webkit-keyframes #{$name} { @content; }
-  @keyframes #{$name} { @content; } 
-}
-
 @mixin hacks() {
   // Transforms need to be block-level to work
   display: inline-block;
