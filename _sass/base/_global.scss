@@ -25,11 +25,13 @@ body {
 
 a {
   color: $link-color;
-  text-decoration: none;
+  text-decoration: underline;
 
-  &:hover,
+  &:hover {
+    font-weight: bolder;
+  }
   &:focus {
-    text-decoration: underline;
+    font-weight: bolder;
   }
 
   strong {
