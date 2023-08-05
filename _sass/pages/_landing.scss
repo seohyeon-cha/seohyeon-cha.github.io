@@ -3,9 +3,83 @@
  * Styles for the landing page
  */
 
+// .landing-title {
+//     color: $post-title-color;
+//     text-align: center;
+//     border-bottom: 1px solid #c0c0c0;
+//     padding-bottom: 0.7rem;
+// }
+
+/**
+ * _landing.scss
+ * Styles for the landing page
+ */
+
+.grid-2{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 200px auto;
+    grid-column-gap: 8%;
+    flex-grow: 1;
+    @media(max-width: 38em){
+        display: flex;
+        flex-flow: wrap-reverse;
+    }
+}
+
+.landing-page{
+	margin: auto;
+    padding-left: 10%;
+	@media(max-width: 38em) {
+        padding-left: 0;
+	}
+}
+
+.centerImage {
+	margin: auto;
+	text-align:center;
+	display:block;
+	@media(max-width: 38em) {
+		width: 50%;
+	}
+}
+
 .landing-title {
-    color: $post-title-color;
-    text-align: center;
-    border-bottom: 1px solid #c0c0c0;
+    color: $header-color;
+    font-weight: lighter;
+    text-align: left;
     padding-bottom: 0.7rem;
 }
+
+.landing-content{
+	padding-top: 10vh;
+    width: 80%;
+    text-align: left;
+    @media(max-width: 38em){
+        padding-top: 0;
+        test-align: center;
+        width: 100%;
+    }
+}
+
+.section-1{
+    padding-top: 11vh;
+    text-align: center;
+    @media(max-width: 38em){
+        padding-top: 5%;
+    }
+}
+
+.section-1 p{
+    font-size: 0.8rem;
+    @media(max-width: 38em){
+        font-size: 1.2rem 
+    }
+}
+
+.section-1 a{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.clear{clear:both;}
