@@ -21,13 +21,69 @@
 
   li {
     display: inline-block;
+    vertical-align: bottom;
+
+    a {
+      color: $nav-link-color;
+      display: block;
+      font-size: large;
+      font-family: 'Gruppo', cursive;
+      font-weight: bold;
+      text-decoration: none;
+      padding-left: $nav-link-padding-x;
+      padding-right: $nav-link-padding-x;
+    }
+  }
+
+  li.cv {
+    display: inline-block;
+    vertical-align: bottom;
 
     a {
       color: $nav-link-color;
       display: block;
       text-decoration: none;
-      padding: $nav-link-padding-y $nav-link-padding-x;
+      padding-left: $nav-link-padding-x;
+      padding-right: $nav-link-padding-x;
     }
+  }
+
+  li.res {
+    display: inline-block;
+    vertical-align: bottom;
+
+    a {
+      color: $nav-link-color;
+      display: block;
+      text-decoration: none;
+      padding-left: $nav-link-padding-x;
+      padding-right: $nav-link-padding-x;
+    }
+  }
+
+  li.name {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 30%;
+
+    @media (max-width: 800px) {
+    display: block;
+    padding-bottom: 2%;
+    margin: auto;
+    text-align: center;
+  }
+
+    a {
+      color: $nav-link-color;
+      display: block;
+      test-decoration: none;
+      font-family: 'Gruppo', cursive;
+      font-weight: bolder;
+      font-size: 250%;
+      padding-left: $nav-name-padding-x;
+      padding-right: $nav-name-padding-x;
+    }
+
   }
 
   li.logo a {
@@ -38,7 +94,8 @@
     height: 1.6em;
     border-radius: 50px;
     line-height: 1.6em;
-    margin: 0 1rem;
+    margin: 0.1rem;
     padding: 0;
   }
+
 }
