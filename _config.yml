@@ -1,4 +1,4 @@
-title:               Celeste
+title:               Seohyeon Cha's website
 url:                 https://seohyeon-cha.github.io
 baseurl:             ""
 
@@ -19,9 +19,9 @@ sass:
   style:             :compressed
 
 author:
-  name:              Nico Elayda
-  url:               nicoelayda.github.io
-  email:             nico@elayda.com
+  name:              Seohyeon Cha
+  url:               seohyeon-cha.github.io
+  email:             kaitjgus@kaist.ac.kr
 
 plugins:
   - jekyll-coffeescript
