@@ -1,57 +1,259 @@
----
-layout: default
-title: Home
----
-<div class="landing-page">
-  
-  <div class="grid-2">
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  <div class="section-1">
-    <img src="/photos/seohyeoncha.jpeg" alt="Seohyeon Profile Photo" class="centerImage" width="250">
-    <a href="https://scholar.google.com/citations?user=y424CngAAAAJ&hl=en"><i alt="link to google scholar profile" class="fa fa-graduation-cap"></i></a>
-    <a href="https://github.com/seohyeon-cha"><i alt="link to github page" class="fab fa-github-alt"></i></a> 
-    <a href="https://www.linkedin.com/in/seohyeon-cha-905381296/"><i alt="link to github page" class="fab fa-linkedin"></i></a> 
-    <p> seohyeon.cha<span style="font-size:10pt;padding-right:1px;padding-left:1px;"><i alt="at sign" class="fas fa-at"></i></span>utexas.edu</p>
-  </div>
+    <title>Seohyeon Cha</title>
 
-  <div class="landing-content">
-    <p style="margin-bottom:-2mm">
-      I am a second year PhD student at <a href="https://www.ece.utexas.edu"> UT Austin ECE</a> under the supervision of <a href="https://users.ece.utexas.edu/~hvikalo/"> Prof. Haris Vikalo</a>. My research develops efficient, trustworthy AI for decentralized, resource-constrained systems. I’m interested in designing methods that preserve reliability under tight compute/memory/latency budgets, device heterogeneity, and non-stationary deployments. To view the list of papers I've contributed to, please visit the <a href="https://seohyeon-cha.github.io/research/">publication section</a>. 
-    </p>
-    <br>
-    <p style="margin-top:-1.2mm">
-      Previously, I completed my master's studies at <a href="https://artlab.kaist.ac.kr"> Advanced Radio Technology Lab</a>, <a href="https://ee.kaist.ac.kr/en/">KAIST</a>, where I also earned my Bachelor's degree in Electrical Engineering.   
-    </p>
-    
-    <h_landing> Current research interests </h_landing>
-    <ul>
-    <li>LLM quantization & speculative decoding for fast, resource-aware inference </li>
-    <li>Continual learning in collaborative, privacy-preserving environments </li>
-    <li>Task offloading and model onloading for hierarchical edge AI inference</li>
-    </ul>
-    
-    <h_landing> News</h_landing>
-    <li>02/2026: Our <a href="http://arxiv.org/abs/2602.05902"> paper</a> on LLM post-training quantization is out now! </li>
-    <li>09/2025: One <a href="https://arxiv.org/pdf/2509.21606?"> paper</a> on continual federated learning is now on ArXiv! </li>
-    <li>08/2025: One <a href="https://arxiv.org/pdf/2508.13380?"> paper</a> on joint model onloading and offloading is now on ArXiv! </li>
-    <li>07/2025: Our paper <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11095422"> GeFL: Model-Agnostic Federated Learning with Generative Models</a> got accepted to IEEE Transactions on Mobile Computing! </li>  
-    <li>02/2025: Our paper <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=y424CngAAAAJ&citation_for_view=y424CngAAAAJ:qjMakFHDy7sC"> NeFL: Nested Model Scaling for Federated Learning with System Heterogeneous Clients</a> was accepted to IEEE Transactions on Mobile Computing! </li>  
-    <li>08/2024: Start my PhD in ECE at UT Austin </li>
-    <li>10/2023: Paper on conformal prediction was accepted NeurIPS 2023 workshop! </li>
-    <li>02/2022: Started my MS in EE at KAIST </li>
-    <li>02/2022: Earned <i>Summa Cum Laude</i> honors from my Bachelor's degree at KAIST </li> 
-    </ul>  
-    
-  </div>
-    
-</div>
-    
-  <footer class="footer" style="vertical-align:bottom;test-align:right;">
-        <hr>
-        <small>
-            Last Updated: &nbsp; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%m-%d-%Y' }}</time><br>
-            <a href="{{ site.baseurl }}/about/">About this site</a>
-        </small>
-  </footer> 
-  
-</div>
+    <meta name="author" content="Seohyeon Cha">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+
+          <!-- Header: name, bio, profile photo -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Seohyeon Cha
+                </p>
+                <p>
+                  I'm a second-year PhD student at <a href="https://www.ece.utexas.edu">UT Austin ECE</a>, advised by <a href="https://users.ece.utexas.edu/~hvikalo/">Prof. Haris Vikalo</a>.
+                  My research develops efficient, trustworthy AI for decentralized, resource-constrained systems — designing methods that preserve reliability under tight compute/memory/latency budgets, device heterogeneity, and non-stationary deployments.
+                  Previously, I completed my M.S. at the <a href="https://artlab.kaist.ac.kr">Advanced Radio Technology Lab</a>, <a href="https://ee.kaist.ac.kr/en/">KAIST</a>, where I also earned my B.S. in Electrical Engineering (<em>Summa Cum Laude</em>).
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:seohyeon.cha@utexas.edu">Email</a> &nbsp;/&nbsp;
+                  <a href="CV_2026.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=y424CngAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/seohyeon-cha">Github</a> &nbsp;/&nbsp;
+                  <a href="https://www.linkedin.com/in/seohyeon-cha-905381296/">LinkedIn</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:37%;max-width:37%">
+                <a href="photos/seohyeoncha.jpeg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="photos/seohyeoncha.jpeg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <!-- Research Interests -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>Research Interests</h2>
+                <ul>
+                  <li>LLM quantization &amp; speculative decoding for fast, resource-aware inference</li>
+                  <li>Continual learning in collaborative, privacy-preserving environments</li>
+                  <li>Task offloading and model onloading for hierarchical edge AI inference</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <!-- News -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>News</h2>
+                <ul>
+                  <li>[02/2026] Our <a href="http://arxiv.org/abs/2602.05902">paper</a> on LLM post-training quantization is out!</li>
+                  <li>[09/2025] One <a href="https://arxiv.org/abs/2509.21606">paper</a> on continual federated learning is now on arXiv.</li>
+                  <li>[08/2025] One <a href="https://arxiv.org/abs/2508.13380">paper</a> on joint model onloading and offloading is now on arXiv.</li>
+                  <li>[07/2025] Our paper <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11095422">GeFL: Model-Agnostic Federated Learning with Generative Models</a> was accepted to IEEE Transactions on Mobile Computing.</li>
+                  <li>[02/2025] Our paper <a href="https://arxiv.org/abs/2308.07761">NeFL: Nested Model Scaling for Federated Learning with System Heterogeneous Clients</a> was accepted to IEEE Transactions on Mobile Computing.</li>
+                  <li>[08/2024] Started my PhD in ECE at UT Austin.</li>
+                  <li>[10/2023] Paper on conformal prediction was accepted to NeurIPS 2023 GLFrontiers workshop.</li>
+                  <li>[02/2022] Started my M.S. in EE at KAIST; earned <em>Summa Cum Laude</em> honors from my Bachelor's degree at KAIST.</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <!-- Publications -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>Publications</h2>
+                <p>* indicates equal contribution.</p>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="photos/quant_pts.png" alt="PTQ regularized calibration" width="160">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="http://arxiv.org/abs/2602.05902">
+                  <span class="papertitle">Regularized Calibration with Successive Rounding for Post-Training Quantization</span>
+                </a>
+                <br>
+                <strong>Seohyeon Cha</strong>, Haocheng Chen, Dongjun Kim, Haoran Zhang, Kevin Chen, Gustavo de Veciana, Haris Vikalo
+                <br>
+                <em>arXiv preprint</em>, 2026
+                <br>
+                <a href="http://arxiv.org/abs/2602.05902">arXiv</a>
+                <p></p>
+                <p>
+                  A post-training quantization scheme that interleaves regularized calibration with successive rounding, reducing layer-wise activation error on LLaMA-family models at low bit-widths.
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="photos/continual_fl.png" alt="task-agnostic continual federated learning" width="160">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2509.21606">
+                  <span class="papertitle">Task-Agnostic Federated Continual Learning via Replay-Free Gradient Projection</span>
+                </a>
+                <br>
+                <strong>Seohyeon Cha</strong>, Huancheng Chen, Haris Vikalo
+                <br>
+                <em>arXiv preprint</em>, 2025
+                <br>
+                <a href="https://arxiv.org/abs/2509.21606">arXiv</a>
+                <p></p>
+                <p>
+                  Federated continual learning without per-client replay buffers: projected-gradient updates combined with core-basis extraction and a lightweight task-identity predictor for privacy-preserving CL under device heterogeneity.
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="photos/onload_offload.png" alt="joint model onloading and offloading" width="160">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2508.13380">
+                  <span class="papertitle">Batching-Aware Joint Model Onloading and Offloading for Hierarchical Multi-Task Inference</span>
+                </a>
+                <br>
+                <strong>Seohyeon Cha</strong>, Kevin Chan, Gustavo de Veciana, Haris Vikalo
+                <br>
+                <em>arXiv preprint</em>, 2025
+                <br>
+                <a href="https://arxiv.org/abs/2508.13380">arXiv</a>
+                <p></p>
+                <p>
+                  Joint scheduling of on-device inference and edge offloading with explicit batching awareness across a hierarchy of multi-task models, to meet latency targets under mixed traffic.
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="photos/framework-gefl.png" alt="GeFL system model" width="160">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11095422">
+                  <span class="papertitle">GeFL: Model-Agnostic Federated Learning with Generative Models</span>
+                </a>
+                <br>
+                Honggu Kang*, <strong>Seohyeon Cha*</strong>, Jiwan Seo, Joonhyuk Kang
+                <br>
+                <em>IEEE Transactions on Mobile Computing</em>, 2025
+                <br>
+                <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11095422">paper</a> /
+                <a href="https://honggkang.github.io/gefl/">project page</a>
+                <p></p>
+                <p>
+                  Federated learning across heterogeneous client models via a shared generative model that aggregates global knowledge. GeFL-F extends this with feature-generative models for stronger privacy and scalability.
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="photos/nefl_frame.png" alt="NeFL nested scaling" width="160">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2308.07761">
+                  <span class="papertitle">NeFL: Nested Model Scaling for Federated Learning with System Heterogeneous Clients</span>
+                </a>
+                <br>
+                Honggu Kang, <strong>Seohyeon Cha</strong>, Jinwoo Shin, Jongmyeong Lee, Joonhyuk Kang
+                <br>
+                <em>IEEE Transactions on Mobile Computing</em>, 2025
+                <br>
+                <a href="https://arxiv.org/abs/2308.07761">arXiv</a> /
+                <a href="https://honggkang.github.io/nefl/">project page</a>
+                <p></p>
+                <p>
+                  A generalized framework that divides deep networks into submodels via both depthwise and widthwise scaling, interpreting forward propagation as solving an ODE with adaptive step sizes. Decoupled parameters handle inconsistencies when training multiple submodel architectures.
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="photos/temp.png" alt="Bayesian GNN conformal prediction" width="160">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://openreview.net/forum?id=Nrs8BA84br">
+                  <span class="papertitle">On the Temperature of Bayesian Graph Neural Networks for Conformal Prediction</span>
+                </a>
+                <br>
+                <strong>Seohyeon Cha</strong>, Honggu Kang, Joonhyuk Kang
+                <br>
+                <em>NeurIPS 2023 GLFrontiers Workshop</em>
+                <br>
+                <a href="https://openreview.net/forum?id=Nrs8BA84br">paper</a>
+                <p></p>
+                <p>
+                  Introduces a temperature parameter into Bayesian GNNs within conformal prediction, empirically showing temperatures that produce more efficient prediction sets and clarifying the link between CP efficiency and model calibration.
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="photos/its.png" alt="intelligent transmitting surface" width="160">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=y424CngAAAAJ&citation_for_view=y424CngAAAAJ:9yKSN-GCB0IC">
+                  <span class="papertitle">Intelligent Surface-aided Transmit-array Antenna in mmWave Communication System with Historical Channel Observation</span>
+                </a>
+                <br>
+                <strong>Seohyeon Cha</strong>, Sanghyuk Kim, Jiwan Seo, Joonhyuk Kang
+                <br>
+                <em>IEEE ICCE-Asia</em>, 2022
+                <br>
+                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=y424CngAAAAJ&citation_for_view=y424CngAAAAJ:9yKSN-GCB0IC">paper</a>
+                <p></p>
+                <p>
+                  A stochastic-gradient-descent scheme that optimizes the phase-shift matrix of an intelligent transmitting surface in mmWave downlink using only historical channel observations.
+                </p>
+              </td>
+            </tr>
+
+          </tbody></table>
+
+          <!-- Footer -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                  Design adapted from <a href="https://jonbarron.info">Jon Barron</a>'s <a href="https://github.com/jonbarron/jonbarron_website">website</a>.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+
+        </td>
+      </tr>
+    </tbody></table>
+  </body>
+</html>
