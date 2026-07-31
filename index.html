@@ -101,7 +101,7 @@
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <a href="https://arxiv.org/abs/2602.05902">
-                  <span class="papertitle">Regularized Calibration with Successive Rounding for Post-Training Quantization</span>
+                  <span class="papertitle">CoreQ: Learning-Free Mismatch Correction and Successive Rounding for Quantization</span>
                 </a>
                 <br>
                 <strong>Seohyeon Cha</strong>, Huancheng Chen, Dongjun Kim, Haoran Zhang, Kevin Chan, Gustavo de Veciana, Haris Vikalo
@@ -111,7 +111,7 @@
                 <a href="https://arxiv.org/abs/2602.05902">arXiv</a>
                 <p></p>
                 <p>
-                  A post-training quantization scheme that interleaves regularized calibration with successive rounding, reducing layer-wise activation error on various transformer-based models at low bit-widths.
+                  Post-training quantization (PTQ) enables efficient deployment of large language models by mapping pretrained weights to low-bit formats without retraining, typically using a small calibration set to minimize a layer-wise calibration objective. However, this sequential procedure induces a mismatch: errors from earlier quantized layers alter the inputs received by later layers, causing the activations to deviate from those of the full-precision model. Recent approaches introduce mismatch-aware calibration objectives to compensate for this effect, but leave open how much of the observed mismatch should shift each layer's calibration target. Fully applying this correction can overfit limited calibration data, while scaling the mismatch correction with a fixed coefficient ignores varying reliability of mismatch estimates across layers. To address these limitations, we propose CoreQ, a learning-free PTQ framework that applies a closed-form coefficient for mismatch correction derived from a geometric decomposition of the mismatch. The resulting coefficient adapts the correction across layers, reduces overfitting to finite calibration data, and requires no hyperparameter tuning. Given the corrected target, CoreQ minimizes the induced triangular least-squares objective with an efficient greedy successive-rounding solver and a bounded beam-search extension, K-CoreQ, that trades modest additional compute for improved performance. Across multiple LLM families, scales, bit-widths, and quantization settings, CoreQ improves perplexity and downstream accuracy over strong PTQ baselines.
                 </p>
               </td>
             </tr>
