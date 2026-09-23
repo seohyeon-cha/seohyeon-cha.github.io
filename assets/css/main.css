@@ -18,3 +18,4 @@
 :root{--global-theme-color:#bf5700;--global-hover-color:#bf5700}
 html[data-theme=dark]{--global-theme-color:#f8971f;--global-hover-color:#f8971f}
 .experience .organization{color:var(--global-theme-color);font-weight:500}
+.news .venue,.publications .venue{color:var(--global-theme-color);font-weight:500}
