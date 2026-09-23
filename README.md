@@ -1,11 +1,16 @@
-# celeste
+# Seohyeon Cha — academic homepage
 
-Celeste is a lightweight Jekyll theme that features a minimalist, content-first design. It places your content center stage and lets your readers view them in a clutter-free environment without visual distractions. It is based on [Poole](https://github.com/poole/poole), the Jekyll butler, by [@mdo](https://github.com/mdo).
+This is a static adaptation of the al-folio design used by Dahyun Kang's homepage. The page uses the current reference site's HTML structure and theme stylesheet, with Seohyeon Cha's content and research figures. The al-folio MIT license is included in THEME-LICENSE.
 
-![Celeste Preview](https://user-images.githubusercontent.com/4868132/48317284-981f4080-e62a-11e8-94e4-f3d7db9506a7.png)
+## Preview
 
-You can check out Celeste in action in [the demo site](https://nicoelayda.github.io/celeste).
+From this directory, run python3 -m http.server 8766 and visit http://127.0.0.1:8766/.
 
-## License
+## Edit
 
-MIT. See [LICENSE](https://github.com/nicoelayda/celeste/blob/master/LICENSE).
+- Change biography, news, education, experience, publications, and honors in index.html.
+- Keep the al-folio theme files in assets/css and assets/js.
+- Replace CV_2026.pdf when the CV changes.
+- Publication figures are stored in photos/.
+
+This is a static GitHub Pages site. It does not need a Jekyll build step.
