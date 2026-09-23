@@ -8,3 +8,8 @@
 .intro-grid .profile{grid-column:2;grid-row:1;float:none!important;position:relative;width:auto;margin:0;min-height:0}
 .intro-grid .profile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 45%}
 @media(max-width:575px){.intro-grid{grid-template-columns:1fr;row-gap:1.5rem}.intro-grid .profile{grid-column:1;grid-row:1;justify-self:end;width:42%}.intro-grid .profile img{position:static;height:auto}.intro-grid .bio{grid-column:1;grid-row:2}}
+
+/* Give every publication figure the same frame without cropping diagrams. */
+.publications ol.bibliography li{margin-bottom:1.5rem}
+.publications ol.bibliography li figure{width:100%;aspect-ratio:5/3;margin:0;display:flex;align-items:center;justify-content:center;overflow:hidden;border:1px solid var(--global-divider-color);border-radius:4px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,.12)}
+.publications ol.bibliography li figure img{display:block;width:100%;height:100%;max-width:100%;object-fit:contain;box-shadow:none!important;border-radius:0!important}
